@@ -1,4 +1,4 @@
-# OSDeploy/ScriptRepo/OSDCloud/SETUP
+# OSDeploy/OSDPad/OSDCloud/SETUP
 
 **Requirements**
 - Administrative Rights
