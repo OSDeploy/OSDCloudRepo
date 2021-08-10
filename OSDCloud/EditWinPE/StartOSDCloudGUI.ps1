@@ -7,5 +7,4 @@ $Params = @{
     StartUpdate = $true
     StartOSDCloudGUI = $true
 }
-
-Edit-OSDCloud.winpe $Params
+Edit-OSDCloud.winpe @Params

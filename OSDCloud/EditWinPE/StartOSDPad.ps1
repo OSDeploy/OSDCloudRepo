@@ -8,5 +8,4 @@ $Params = @{
     StartUpdate = $true
     StartOSDPad = "OSDeploy OSDCloudRepo 'OSDCloud/Deploy'"
 }
-
-Edit-OSDCloud.winpe $Params
+Edit-OSDCloud.winpe @Params
