@@ -1,8 +1,7 @@
 #Requires -Modules OSD
 #Requires -RunAsAdministrator
 
-#Update OSD Module
-#Start-OSDCloudGUI
+#How To: Update OSD Module and start OSDCloudGUI automatically
 
 $Params = @{
     StartUpdate = $true
@@ -10,4 +9,3 @@ $Params = @{
 }
 
 Edit-OSDCloud.winpe $Params
-New-OSDCloud.iso

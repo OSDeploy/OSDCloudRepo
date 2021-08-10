@@ -1,8 +1,7 @@
 #Requires -Modules OSD
 #Requires -RunAsAdministrator
 
-#Update OSD Module
-#Start-OSDCloud with Parameters
+#How To: Update OSD Module and start OSDCloud (Command Line) automatically
 
 $Params = @{
     StartUpdate = $true
@@ -10,4 +9,3 @@ $Params = @{
 }
 
 Edit-OSDCloud.winpe $Params
-New-OSDCloud.iso
